@@ -12,42 +12,52 @@ header
 {
     display:flex;
     justify-content: space-between;
-    align-items: flex-end;
-}
-
-#websitelogo
-{
-    display: flex;
-    flex-direction: row;
     align-items: baseline;
+    flex-wrap: wrap;
 }
 
-#websitelogo img
+header img /* Reservia logo */
 {
-    width: 100px;
-    height: 30px;
+    height: 50px;
+    margin-left: 0px;
+    margin-top: 5px;
 }
 
-/* Menu */
-
-nav ul
+.hebergements
 {
-    list-style-type: none;
-    display: flex;
+    color: #0065FC;
 }
 
-nav li
+.inscription
 {
-    margin-right: 15px;
+    color: #0065FC;
+    font-weight: bold;
 }
 
 nav a
 {
     text-decoration: none;
-    font-size: medium;
+    color: black;
+    font-size: 15px;
 }
 
-nav a:hover
+nav ul /* Nav-bar */
 {
-    border-top: 2px solid #0065FC;
+    list-style-type: none;
+    display: flex;
+    margin-top: 35px;
+    margin-right: 35px;
+}
+
+nav li /* Nav element */
+{
+    margin-right: 15px;
+}
+
+
+
+nav li a:hover /* effect 1 */
+{
+    border-top: 3px solid #0065FC;
+    padding-top: 45px;
 }
