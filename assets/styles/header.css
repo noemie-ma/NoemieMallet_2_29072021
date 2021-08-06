@@ -6,58 +6,132 @@
     position: relative;
 }
 
+@media screen and (min-width: 601px)
+{
 /* Header */
 
-header
-{
-    display:flex;
-    justify-content: space-between;
-    align-items: baseline;
-    flex-wrap: wrap;
+    header
+    {
+        display:flex;
+        justify-content: space-between;
+        align-items: baseline;
+        flex-wrap: wrap;
+        width: 100%;
+        left: 10px;
+    }
+
+    header img /* Reservia logo */
+    {
+        height: 50px;
+        margin-left: 0px;
+        margin-top: 5px;
+    }
+
+    .hebergements
+    {
+        order: 2;
+        color: #0065FC;
+    }
+
+    .inscription
+    {
+        order: 1;
+        color: #0065FC;
+        font-weight: bold;
+    }
+
+    nav a
+    {
+        text-decoration: none;
+        color: black;
+        font-size: 15px;
+    }
+
+    nav ul /* Nav-bar */
+    {
+        list-style-type: none;
+        display: flex;
+        margin-top: 35px;
+        margin-right: 35px;
+    }
+
+    nav li /* Nav element */
+    {
+        margin-right: 15px;
+    }
+
+    nav li a:hover /* effect 1 */
+    {
+        border-top: 3px solid #0065FC;
+        padding-top: 45px;
+    }
 }
 
-header img /* Reservia logo */
+@media (max-width: 600px)
 {
-    height: 50px;
-    margin-left: 0px;
-    margin-top: 5px;
-}
+    header
+    {
+        display:flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: baseline;
+        flex-wrap: wrap;
+        width: 100%;
+    }
 
-.hebergements
-{
-    color: #0065FC;
-}
+    header img /* Reservia logo */
+    {
+        height: 50px;
+        margin-left: 0px;
+        margin-bottom: 2px;
+    }
 
-.inscription
-{
-    color: #0065FC;
-    font-weight: bold;
-}
+    .hebergements
+    {
+        order: 2;
+        color: #0065FC;
+    }
 
-nav a
-{
-    text-decoration: none;
-    color: black;
-    font-size: 15px;
-}
+    .activites
+    {
+        order: 3;
+    }
 
-nav ul /* Nav-bar */
-{
-    list-style-type: none;
-    display: flex;
-    margin-top: 35px;
-    margin-right: 35px;
-}
+    .inscription
+    {
+        order: 1;
+        color: #0065FC;
+        font-weight: bold;
+    }
 
-nav li /* Nav element */
-{
-    margin-right: 15px;
-}
+    .inscription:hover
+    {
+        border: none;
+    }
 
+    nav a
+    {
+        text-decoration: none;
+        color: black;
+        font-size: 15px;
+    }
 
+    nav ul /* Nav-bar */
+    {
+        list-style-type: none;
+        display: flex;
+        margin-top: 35px;
+        margin-right: 35px;
+    }
 
-nav li a:hover /* effect 1 */
-{
-    border-top: 3px solid #0065FC;
-    padding-top: 45px;
+    nav li /* Nav element */
+    {
+        margin-right: 15px;
+    }
+
+    nav li a:hover /* effect 1 */
+    {
+        border-top: 3px solid #0065FC;
+        padding-top: 45px;
+    }
 }
