@@ -2,6 +2,7 @@
 <html>
 <head>
     <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="assets/styles/styles.css" />
     <title>Reservia</title>
     
@@ -10,9 +11,7 @@
     <div id="main_wrapper">
         <!-- Header -->
         <header>
-            <div id="websitelogo">
                 <img src="assets/images/logo/Reservia.svg" alt="Logo Reservia" />
-            </div>
             <nav>
                 <ul>
                     <li><a href="#accomodation"><span class="hebergements">Hébergements</span></a></li>
@@ -23,19 +22,34 @@
         </header>
 
             <!-- Search and filters -->
-            <div id="searchzone">
-
-            </div>
+            <section id="searchzone">
+                    <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
+                    <span class="line-height">En plein centre ville ou en pleine nature</span>
+                    <!-- Search Bar  -->
+                    <div id="search-bar">
+                        <div class="gps-loc">
+                            <i class="fa fa-map-marker map-marker" aria-hidden="true"></i>
+                        </div>
+                        <div>
+                            <input aria-label="Search through site content" class="input-search" id="site-search"
+                                placeholder="Marseille, France" type="search" />
+                        </div>
+                        <div>
+                            <input type="button" class="btn-search btn-search-desktop" value="Rechercher" />
+                            <i class="fa fa-search btn-search btn-search-mobile" aria-hidden="true"></i>
+                        </div>
+                    </div>
+            </section>
 
             <!-- Accomodation and Trending-->
-            <div id="accomodation">
+            <section id="accomodation">
 
-            </div>
+            </section>
 
             <!-- Activities -->
-            <div id="activities">
+            <section id="activities">
 
-            </div>
+            </section>
 
             <!-- Footer -->
             <footer>
