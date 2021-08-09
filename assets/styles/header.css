@@ -1,137 +1,63 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
-*
-{
-    font-family: 'Raleway', Arial, serif, sans-serif;
-    position: relative;
-}
-
-@media screen and (min-width: 601px)
-{
 /* Header */
 
-    header
-    {
-        display:flex;
-        justify-content: space-between;
-        align-items: baseline;
-        flex-wrap: wrap;
-        width: 100%;
-        left: 10px;
-    }
-
-    header img /* Reservia logo */
-    {
-        height: 50px;
-        margin-left: 0px;
-        margin-top: 5px;
-    }
-
-    .hebergements
-    {
-        order: 2;
-        color: #0065FC;
-    }
-
-    .inscription
-    {
-        order: 1;
-        color: #0065FC;
-        font-weight: bold;
-    }
-
-    nav a
-    {
-        text-decoration: none;
-        color: black;
-        font-size: 15px;
-    }
-
-    nav ul /* Nav-bar */
-    {
-        list-style-type: none;
-        display: flex;
-        margin-top: 35px;
-        margin-right: 35px;
-    }
-
-    nav li /* Nav element */
-    {
-        margin-right: 15px;
-    }
-
-    nav li a:hover /* effect 1 */
-    {
-        border-top: 3px solid #0065FC;
-        padding-top: 45px;
-    }
+header
+{
+    display:flex;
+    justify-content: space-between;
+    align-items: baseline;
+    height: 120px;
 }
 
-@media (max-width: 600px)
+#logo /* Reservia logo */
 {
-    header
-    {
-        display:flex;
-        flex-direction: column;
-        justify-content: space-around;
-        align-items: baseline;
-        flex-wrap: wrap;
-        width: 100%;
-    }
+    align-content: flex-start;
+    flex:1;
+   
+}
+#logo img 
+{
+    padding-left: 55px;
+    padding-top: 50px;
+}
+nav 
+{
+   align-content: center;
+}
+nav a
+{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
 
-    header img /* Reservia logo */
-    {
-        height: 50px;
-        margin-left: 0px;
-        margin-bottom: 2px;
-    }
+nav ul /* Nav-bar */
+{
+    list-style-type: none;
+    display: flex;
+   
+}
 
-    .hebergements
-    {
-        order: 2;
-        color: #0065FC;
-    }
+nav li /* Nav element */
+{
+    width: 165px;
+    border-top: 3px solid #FFFFFF;
+    color: black;
+    align-content: center;
+}
 
-    .activites
-    {
-        order: 3;
-    }
+nav li:hover /* effect 1 */
+{
+    border-top: 3px solid #0065FC;
+    
+}
 
-    .inscription
-    {
-        order: 1;
-        color: #0065FC;
-        font-weight: bold;
-    }
-
-    .inscription:hover
-    {
-        border: none;
-    }
-
-    nav a
-    {
-        text-decoration: none;
-        color: black;
-        font-size: 15px;
-    }
-
-    nav ul /* Nav-bar */
-    {
-        list-style-type: none;
-        display: flex;
-        margin-top: 35px;
-        margin-right: 35px;
-    }
-
-    nav li /* Nav element */
-    {
-        margin-right: 15px;
-    }
-
-    nav li a:hover /* effect 1 */
-    {
-        border-top: 3px solid #0065FC;
-        padding-top: 45px;
-    }
+#inscription{
+    align-content: flex-end;
+  
+}
+#inscription a {
+    
+    padding-right: 55px;
+    padding-top: 50px;
+  
 }
