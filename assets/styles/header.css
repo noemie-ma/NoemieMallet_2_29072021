@@ -1,5 +1,4 @@
 /* Header */
-
 header
 {
     display:flex;
@@ -12,7 +11,6 @@ header
 {
     align-content: flex-start;
     flex:1;
-   
 }
 #logo img 
 {
@@ -34,7 +32,6 @@ nav ul /* Nav-bar */
 {
     list-style-type: none;
     display: flex;
-   
 }
 
 nav li /* Nav element */
@@ -48,16 +45,19 @@ nav li /* Nav element */
 nav li:hover /* effect 1 */
 {
     border-top: 3px solid #0065FC;
-    
+    padding-top: 50px;
+}
+ 
+#inscription
+{
+    align-content: flex-end;
+    font-weight: bold;
 }
 
-#inscription{
-    align-content: flex-end;
-  
-}
-#inscription a {
-    
+#inscription a
+{
+    text-decoration: none;
+    color: #0065FC;
     padding-right: 55px;
     padding-top: 50px;
-  
 }
