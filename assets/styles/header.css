@@ -1,5 +1,4 @@
-/* Header */
-header
+header /* Header */
 {
     display:flex;
     justify-content: space-between;
@@ -42,12 +41,14 @@ nav li /* Nav element */
     align-content: center;
 }
 
-nav li:hover /* effect 1 */
+
+nav a:hover /* Link effect */
 {
+    color: #0065FC;
     border-top: 3px solid #0065FC;
-    padding-top: 50px;
+    padding-top: 65px;
 }
- 
+
 #inscription
 {
     align-content: flex-end;
