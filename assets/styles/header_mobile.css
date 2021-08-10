@@ -1,9 +1,37 @@
 @media all and (max-width: 600px)
 {
     header /* Header */
-{
-    display:flex;
-    justify-content: space-between;
-    align-items: baseline;
-}
+    {
+        display:flex;
+        justify-content: center;
+        align-items: baseline;
+    }
+
+    #logo /* Logo position and else */
+    {
+        align-content: space-around;
+        flex: 1;
+    }
+
+    nav /* Nav-bar */
+    {
+        border-bottom: 3px solid #F2F2F2;
+    }
+
+    nav a:hover /* Link effect */
+    {
+        border-bottom : 3px solid #0065FC;
+        padding-bottom: 16px;
+        border-top: none;
+    }
+
+    #inscription
+    {
+        flex: 2;
+    }
+
+    .item_menu
+    {
+        flex: 3;
+    }
 }
