@@ -1,0 +1,9 @@
+@media all and (max-width: 600px)
+{
+    header /* Header */
+{
+    display:flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+}
