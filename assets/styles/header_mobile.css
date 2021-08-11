@@ -12,7 +12,6 @@
         align-content: space-around;
         flex: 1;
     }
-
     nav /* Nav-bar */
     {
         border-bottom: 3px solid #F2F2F2;
@@ -28,6 +27,8 @@
     #inscription
     {
         flex: 2;
+        flex-direction: column;
+        align-self: center;
     }
 
     .item_menu
