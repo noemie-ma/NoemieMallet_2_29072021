@@ -11,12 +11,12 @@
     #logo img 
     {
         order: 1;
-        align-self: center;
+        padding-top: 5px;
     }
 
     #inscription
     {
-        order: 3;
+        order: 2;
         align-self: center;
     }
 
@@ -24,13 +24,13 @@
     {
         border-bottom: 3px solid #F2F2F2;
         order: 3;
-        align-self: baseline;
     }
 
-    nav li
+    nav ul
     {
-        width:90%;
-        align-items: baseline;
+        width: 100%;
+        justify-content: space-around;
+        align-items: stretch;
     }
 
     nav a:hover /* Link effect */
