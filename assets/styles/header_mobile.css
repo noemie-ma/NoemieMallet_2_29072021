@@ -2,19 +2,35 @@
 {
     header /* Header */
     {
-        display:flex;
-        justify-content: center;
-        align-items: baseline;
+        margin: auto;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
     }
 
-    #logo /* Logo position and else */
+    #logo img 
     {
-        align-content: space-around;
-        flex: 1;
+        order: 1;
+        align-self: center;
     }
+
+    #inscription
+    {
+        order: 3;
+        align-self: center;
+    }
+
     nav /* Nav-bar */
     {
         border-bottom: 3px solid #F2F2F2;
+        order: 3;
+        align-self: baseline;
+    }
+
+    nav li
+    {
+        width:90%;
+        align-items: baseline;
     }
 
     nav a:hover /* Link effect */
@@ -22,17 +38,5 @@
         border-bottom : 3px solid #0065FC;
         padding-bottom: 16px;
         border-top: none;
-    }
-
-    #inscription
-    {
-        flex: 2;
-        flex-direction: column;
-        align-self: center;
-    }
-
-    .item_menu
-    {
-        flex: 3;
     }
 }
