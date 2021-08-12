@@ -40,3 +40,8 @@
         border-top: none;
     }
 }
+
+@media all and (max-width: 292px)
+{
+    
+}
