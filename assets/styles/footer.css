@@ -1,7 +1,41 @@
 footer /* Paramétrage du footer */
 {
+    margin: auto;
     display: flex;
-    justify-content: space-around;
-    align-items: baseline;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    background-color: #F2F2F2;
+    height: 70%;
 }
 
+footer li
+{
+    list-style-type: none;
+}
+
+footer a
+{
+    text-decoration: none;
+    color: #000000;
+}
+
+h1
+{
+    font-weight: bold;
+}
+
+.apropos
+{
+    order: 1;
+}
+
+.hebergements
+{
+    order: 2;
+}
+
+.assistance
+{
+    order: 3;
+}
