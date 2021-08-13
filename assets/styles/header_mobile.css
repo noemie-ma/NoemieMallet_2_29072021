@@ -1,4 +1,46 @@
-@media all and (max-width: 600px)
+@media all and (max-width: 293px)
+{
+    header /* Header */
+    {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #logo img 
+    {
+        order: 1;
+        padding-top: 5px;
+    }
+
+    #inscription
+    {
+        order: 2;
+        align-self: center;
+    }
+
+    nav /* Nav-bar */
+    {
+        border-bottom: 3px solid #F2F2F2;
+        order: 3;
+    }
+
+    nav ul
+    {
+        width: 100%;
+        text-align: center;
+        justify-content: space-around;
+        align-items: stretch;
+    }
+
+    nav a:hover /* Link effect */
+    {
+        border-bottom : 3px solid #0065FC;
+        padding-bottom: 16px;
+        border-top: none;
+    }
+}
+
+@media all and (min-width: 294px) and (max-width: 600px)
 {
     header /* Header */
     {
