@@ -4,6 +4,7 @@ header /* Header */
     justify-content: space-between;
     align-items: baseline;
     height: 120px;
+    width: 100%;
 }
 
 #logo /* Reservia logo */
@@ -18,7 +19,7 @@ header /* Header */
 }
 nav /* Nav-bar */
 {
-   align-content: center;
+   justify-content: center;
 }
 nav a
 {
@@ -52,7 +53,7 @@ nav a:hover /* Link effect */
 #inscription
 {
     align-content: flex-end;
-    font-weight: bold;
+   
 }
 
 #inscription a
@@ -61,4 +62,37 @@ nav a:hover /* Link effect */
     color: #0065FC;
     padding-right: 55px;
     padding-top: 50px;
+    font-weight: 600;
+}
+@media all and (max-width: 768px)
+{
+    header /* Header */
+    {
+      flex-direction: row;
+       flex-wrap: wrap;
+       row-gap: 50px;
+    }
+
+    nav /* Nav-bar */
+    {
+        order: 2;
+        flex: 1 0 100%;
+        border-bottom: 3px solid #F2F2F2;
+        
+    }
+
+   /*  nav ul
+    {
+        width: 100%;
+        text-align: center;
+        justify-content: space-around;
+        align-items: stretch;
+    }
+
+    nav a:hover /* Link effect */
+    /*{
+        border-bottom : 3px solid #0065FC;
+        padding-bottom: 16px;
+        border-top: none;
+    } */
 }
