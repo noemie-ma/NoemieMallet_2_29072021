@@ -64,6 +64,7 @@ nav a:hover /* Link effect */
     padding-top: 50px;
     font-weight: 600;
 }
+
 @media all and (max-width: 768px)
 {
     header /* Header */
@@ -81,7 +82,7 @@ nav a:hover /* Link effect */
         
     }
 
-   /*  nav ul
+    nav ul
     {
         width: 100%;
         text-align: center;
@@ -90,9 +91,9 @@ nav a:hover /* Link effect */
     }
 
     nav a:hover /* Link effect */
-    /*{
+    {
         border-bottom : 3px solid #0065FC;
         padding-bottom: 16px;
         border-top: none;
-    } */
+    } 
 }
