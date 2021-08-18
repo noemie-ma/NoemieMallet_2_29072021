@@ -3,7 +3,6 @@ header /* Header */
     display:flex;
     justify-content: space-between;
     align-items: baseline;
-    height: 120px;
     width: 100%;
 }
 
@@ -71,7 +70,7 @@ nav a:hover /* Link effect */
     {
       flex-direction: row;
        flex-wrap: wrap;
-       row-gap: 50px;
+       justify-content: flex-start;
     }
 
     nav /* Nav-bar */
@@ -79,7 +78,6 @@ nav a:hover /* Link effect */
         order: 2;
         flex: 1 0 100%;
         border-bottom: 3px solid #F2F2F2;
-        
     }
 
     nav ul
