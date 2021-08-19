@@ -1,11 +1,38 @@
+#accomodation
+{
+    display: flex;
+}
+
+img
+{
+    max-width: 50%;
+}
+
 .hebergements
 {
     background-color: #F2F2F2;
     width: 50%;
 }
 
-.hebergements img
+.rating
 {
-    width: 235px;
-    height: 115px;
+    color: #0065FC;
+}
+
+.rating span
+{
+    color: #F2F2F2;
+}
+
+.trending
+{
+    background-color: #F2F2F2;
+    width: 50%;
+}
+
+.plus
+{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
 }
