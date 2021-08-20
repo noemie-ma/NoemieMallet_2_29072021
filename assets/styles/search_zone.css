@@ -1,4 +1,115 @@
-#searchzone
+/* Search box */
+.search-bar
 {
-    margin: auto;
+    border: solid #F2F2F2;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 20px;
+    width: 420px;
+    height: 50px;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+.gps-loc
+{
+    background-color: #F2F2F2;
+    font-size: 140%;
+    width: 55px;
+    height: 50px;
+}
+
+.fa.fa-map-marker
+{
+    padding: 15px 20px 15px 20px;
+}
+
+.formulaire .input-search
+{
+    border : none; 
+    font-weight: bold;
+    color: #000000;
+    width: 100%;
+}
+
+.rechercher
+{
+    border: none;
+    background-color: #0065FC;
+    color: white;
+    width: 135px;
+    height: 50px;
+    font-weight: bold;
+    justify-content: flex-end;
+}
+
+/* Filters */
+
+.checkbox input
+{
+    display: none;
+}
+
+.filters
+{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.filters h2
+{
+    margin-right: 20px;
+}
+
+.filters_box
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 60%;
+    flex-wrap: wrap;
+}
+
+.checkbox
+{
+    border: solid #F2F2F2;
+    border-radius: 30px;
+    overflow: hidden;
+    white-space: nowrap;
+    border-left: none;
+    padding-right: 3%;
+}
+
+.checkbox:hover
+{
+    background-color: #F2F2F2;
+}
+
+label i
+{
+    color: #0065FC;
+    font-size: 20px;
+    background-color: #F2F2F2;
+    border-radius: 100%;
+    padding: 20px;
+}
+
+/* Info-logo */
+.info
+{
+    font-size: 1em;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-left: 1%;
+}
+.fa-info
+{
+    border: #F2F2F2 solid 1px;
+    padding: 1%;
+    border-radius: 100%;
+    color: #0065FC;
 }
