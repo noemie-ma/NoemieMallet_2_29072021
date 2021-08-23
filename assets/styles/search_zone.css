@@ -7,7 +7,7 @@
 
 .search-bar
 {
-    border: solid #F2F2F2;
+    border: 1px solid #F2F2F2;
     overflow: hidden;
     display: flex;
     align-items: center;
@@ -46,7 +46,7 @@
 {
     border: none;
     background-color: #0065FC;
-    color: white;
+    color: #FFFFFF;
     width: 135px;
     height: 50px;
     font-weight: bold;
@@ -117,8 +117,9 @@ label i
 }
 .fa-info
 {
-    border: #F2F2F2 solid 2px;
-    padding: 1%;
+    border: 1px solid #F2F2F2;
+    padding: 5px 10px 5px 10px;
     border-radius: 100%;
     color: #0065FC;
+    font-weight: bold;
 }
