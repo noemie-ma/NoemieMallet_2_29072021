@@ -1,6 +1,7 @@
 /* Hebergements */
 #accomodation
 {
+    padding-left: 40px;
     display: flex;
     justify-content: space-around;
 }
@@ -8,12 +9,14 @@
 .hebergements
 {
     background-color: #F2F2F2;
+    width: 55%;
+    border-radius: 20px;
 }
 
 .plus
 {
     text-decoration: none;
-    color: black;
+    color: #000000;
     font-weight: bold;
 }
 
@@ -21,20 +24,25 @@
 .trending
 {
     background-color: #F2F2F2;
+    padding: 25px 40px 25px 40px;
+    border-radius: 20px;
 }
 
 .trending h2
 {
     display: flex;
     justify-content: space-between;
-    padding: 50px 40px 30px 40px;
 }
 
 .annonce
 {
     background-color: #FFFFFF;
     height: 128px;
-    border-radius: 16px 16px 16px 16px;
+    padding: 4px;
+    border-radius: 20px;
+    box-shadow: 0 0 16px #F2F2F2;
+    box-sizing: border-box;
+    cursor: pointer;
 }
 
 .redirection
@@ -42,6 +50,8 @@
     display: flex;
     max-width: 100%;
     height: 100%;
+    text-decoration: none;
+    color: #000000;
 }
 
 .imgpop
@@ -56,16 +66,14 @@
     max-width: 100%;
     width: 100%;
     height: 100%;
-    border-radius: 16px 06px 0px 16px;
+    border-radius: 16px 0px 0px 16px;
 }
 
 .presentationpop
 {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
     width: 60%;
     height: 100%;
+    padding-left: 20px;
 }
 
 .rating
