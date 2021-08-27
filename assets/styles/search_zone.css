@@ -123,3 +123,19 @@ label i
     color: #0065FC;
     font-weight: bold;
 }
+
+@media all and (max-width: 768px)
+{
+    .filters_box
+    {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .filters
+    {
+    display: flex;
+    margin-top: 30px;
+    flex-direction: column;
+    font-weight: bold;
+    }
+}
