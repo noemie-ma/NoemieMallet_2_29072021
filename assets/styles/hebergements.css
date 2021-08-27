@@ -1,4 +1,4 @@
-/* Hebergements */
+/* section hebergement et trending */
 #accomodation
 {
     padding-left: 40px;
@@ -6,10 +6,11 @@
     justify-content: space-around;
 }
 
+/* Hebergements */
 .hebergements
 {
     background-color: #F2F2F2;
-    width: 55%;
+    width: 60%;
     border-radius: 20px;
 }
 
@@ -103,3 +104,5 @@ strong
 {
     color: #F2F2F2;
 }
+
+/* Mobile version */
