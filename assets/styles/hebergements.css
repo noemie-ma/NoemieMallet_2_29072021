@@ -169,4 +169,50 @@ strong
 }
 
 /* Mobile version */
+@media all and (max-width: 768px)
+{
+    #accomodation
+    {
+        display: flex;
+        flex-direction: column;
+    }
 
+    /* Plus populaires */
+    .trending
+    {
+        order: 1;
+        width: 100%;
+        padding-left: 0px;
+    }
+
+    .trending h2
+    {
+        padding-bottom: 30px;
+        padding-top: 30px;
+        width: 80%;
+    }
+
+    .annonce
+    {
+    width: 100%;
+    }
+
+    /* Hebergement */
+    .hebergements
+    {
+        order: 2;
+        background-color: transparent;
+        flex-direction: column;
+        width: 95%;
+    }
+
+    .home-announce
+    {
+        width: 300px;
+    }
+
+    .home-announce img
+    {
+        width: 300px;
+    }
+}
