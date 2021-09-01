@@ -223,11 +223,14 @@ strong
         background-color: transparent;
         flex-direction: column;
         width: 95%;
+        gap: 20px;
     }
 
     .elements
     {
         width: 100%;
+        display: flex;
+        flex-direction: column;
         justify-content: center;
     }
 
@@ -237,6 +240,17 @@ strong
     }
 
     .home-announce img
+    {
+        width: 100%;
+        height: 90%;
+    }
+
+    .imgheb
+    {
+        width: 100%;
+    }
+
+    .pres-hebergement
     {
         width: 100%;
     }
