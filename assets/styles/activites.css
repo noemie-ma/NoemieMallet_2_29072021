@@ -42,7 +42,7 @@
 
 .column-orientation img
 {
-    height: 470px;
+    height: 100%;
 }
 
 .imgactivities p
@@ -74,14 +74,13 @@
 .line-orientation img
 {
     width: 400px;
-    height: 197px;
+    height: 195px;
     object-fit: cover;
 }
 
 .titileactivities
 {
     position: absolute;
-    z-index: 1;
     background-color: white;
     width: 100%;
     bottom: 0;
@@ -92,20 +91,49 @@
 
 /* Mobile version */
 
- @media all and (max-width: 768px)
+@media all and (max-width: 768px)
 {
     #activities
     {
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        padding: 20px 10px 40px 10px;
+        width: 100%;
+    }
+    #activities h2
+    {
+        margin: 3%;
     }
 
     .elements2
     {
         flex-direction: column;
-        align-self: center;
+        width: 100%;
     }
 
+    .card-activities
+    {
+        width: 100%;
+        margin-bottom: 5%;
+    }
+
+    .column-orientation
+    {
+        flex-direction: column;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .column-orientation img
+    {
+        width: 100%;
+    }
+
+    .line-orientation
+    {
+        width: 100%;
+    }
+
+    .line-orientation img
+    {
+        width: 100%;
+    }
 }
+
