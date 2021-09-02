@@ -182,6 +182,7 @@ label i
     {
     display: flex;
     flex-wrap: wrap;
+    width: 95%;
     }
 
     .filters
