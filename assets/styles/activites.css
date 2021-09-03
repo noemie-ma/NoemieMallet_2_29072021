@@ -95,28 +95,29 @@
 {
     #activities
     {
-        padding: 20px 40px 20px 40px;
-        width: 100%;
-    }
-    #activities h2
-    {
-        margin: 3%;
+        padding: 10px 20px 50px 20px;
     }
 
     .elements2
     {
         flex-direction: column;
         width: 100%;
+        gap: 30px;
+    }
+
+    .flexcolumn
+    {
+        gap: 55px;
     }
 
     .card-activities
     {
         width: 100%;
-        margin-bottom: 5%;
     }
 
     .column-orientation
     {
+        margin-top: 33px;
         flex-direction: column;
         justify-content: space-between;
         width: 100%;
@@ -130,6 +131,7 @@
     .line-orientation
     {
         width: 100%;
+        gap: 55px;
     }
 
     .line-orientation img
