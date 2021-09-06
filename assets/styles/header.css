@@ -8,6 +8,7 @@ header /* Header */
 
 #logo /* Reservia logo */
 {
+    display: flex;
     align-content: flex-start;
     flex:1;
 }
@@ -18,7 +19,8 @@ header /* Header */
 }
 nav /* Nav-bar */
 {
-   justify-content: center;
+    display: flex;
+    justify-content: center;
 }
 nav a
 {
@@ -38,6 +40,7 @@ nav li /* Nav element */
     width: 165px;
     border-top: 3px solid #FFFFFF;
     color: black;
+    display: flex;
     align-content: center;
 }
 
@@ -51,6 +54,7 @@ nav a:hover /* Link effect */
 
 #inscription
 {
+    display: flex;
     align-content: flex-end;
 }
 
@@ -67,9 +71,9 @@ nav a:hover /* Link effect */
 {
     header /* Header */
     {
-      flex-direction: row;
-       flex-wrap: wrap;
-       justify-content: flex-start;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: flex-start;
     }
 
     nav /* Nav-bar */

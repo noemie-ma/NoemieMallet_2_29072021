@@ -1,6 +1,8 @@
  #activities
 {
     padding: 40px 35px 40px 44px;
+    display: flex;
+    flex-direction: column;
 }
 
 .activities h2
@@ -35,6 +37,7 @@
 
 .column-orientation
 {
+    display: flex;
     flex-direction: column;
     justify-content: space-between;
     width: 285px;
@@ -52,6 +55,7 @@
 
 .card-activities
 {
+    display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
 }
@@ -100,6 +104,7 @@
 
     .elements2
     {
+        display: flex;
         flex-direction: column;
         width: 100%;
         gap: 30px;
@@ -118,6 +123,7 @@
     .column-orientation
     {
         margin-top: 33px;
+        display: flex;
         flex-direction: column;
         justify-content: space-between;
         width: 100%;

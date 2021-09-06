@@ -2,6 +2,8 @@
 #search
 {
     padding: 0px 0px 0px 55px;
+    display: flex;
+    flex-direction: column;
 }
 
 .search-bar
