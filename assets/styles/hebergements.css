@@ -3,18 +3,20 @@
 {
     padding-left: 40px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    gap: 30px;
 }
 
 /* Hebergements */
 article
 {
     display: flex;
+    flex-direction: column;
 }
 .hebergements
 {
     background-color: #F2F2F2;
-    width: 55%;
+    width: 60%;
     border-radius: 20px;
     padding: 25px 40px 25px 40px;
 }
@@ -25,7 +27,7 @@ article
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: flex-start;
-    gap: 30px;
+    gap: 3px;
 }
 
 .home-announce
@@ -33,12 +35,14 @@ article
     border: solid white 5px;
     border-radius: 20px;
     position: relative;
-    width: 205px;
+    width: 100%;
     height: 190px;
     object-fit: contain;
     overflow: hidden;
     box-shadow: #bdbcbc63 1px 1px 5px;
     margin: 3%;
+    display: flex;
+    flex-direction: column;
 }
 
 .imgheb
@@ -50,7 +54,6 @@ article
 .photoheb
 {
     object-fit: cover;
-    max-width: 100%;
     width: 100%;
     height: 100%;
     border-radius: 16px 16px 0px 0px;
@@ -63,8 +66,8 @@ article
     right: 0;
     left: 0;
     bottom: 0;
-    width: 235px;
-    height: 85px;
+    width: 100%;
+    height: 45%;
     padding-left: 10px;
 }
 
@@ -99,12 +102,20 @@ strong
     background-color: #F2F2F2;
     padding: 20px 40px 20px 40px;
     border-radius: 20px;
+    display: flex;
+    flex-direction: column;
 }
 
 .trending h2
 {
     display: flex;
     justify-content: space-between;
+}
+
+.elements-tt
+{
+    display: flex;
+    flex-direction: column;
 }
 
 .annonce
@@ -118,12 +129,13 @@ strong
     box-shadow: 15px 15px 15px 15px #E6E6E6;
     box-sizing: border-box;
     cursor: pointer;
+    display: flex;
+    flex-direction: column;
 }
 
 .redirection
 {
     display: flex;
-    max-width: 100%;
     text-decoration: none;
     color: #000000;
 }
@@ -137,7 +149,6 @@ strong
 .photo
 {
     object-fit: cover;
-    max-width: 100%;
     width: 100%;
     height: 100%;
     border-radius: 16px 0px 0px 16px;

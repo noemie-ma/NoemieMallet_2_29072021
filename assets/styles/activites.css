@@ -14,7 +14,7 @@
 .elements2
 {
     display: flex;
-    gap: 45px;
+    gap: 35px;
 }
 
 .card-activities
@@ -40,11 +40,12 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    width: 285px;
+    width: 23%;
 }
 
 .column-orientation img
 {
+    width: 253%;
     height: 100%;
 }
 
@@ -56,6 +57,7 @@
 .card-activities
 {
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
     flex-wrap: wrap;
 }
