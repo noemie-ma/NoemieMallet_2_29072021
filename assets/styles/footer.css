@@ -1,11 +1,13 @@
 footer /* Paramétrage du footer */
 {
     display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
     gap: 200px;
-    font-size: 14px;
+    font-size: 11px;
     background-color: #F2F2F2;
-    width: 100%;
-    padding: 40px 40px 40px 40px;
+    width: 97%;
+    padding: 25px 15px 25px 25px;
 }
 
 .footer_colomn
@@ -51,7 +53,7 @@ h1
         display: flex;
         flex-wrap: wrap;
         flex-direction: column;
-        padding: 50px 25px 50px 25px;
+        padding: 50px 42px 50px 42px;
         gap: 50px;
     }
 }

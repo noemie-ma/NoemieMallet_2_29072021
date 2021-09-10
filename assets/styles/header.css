@@ -1,6 +1,6 @@
 header /* Header */
 {
-    display:flex;
+    display: flex;
     justify-content: space-between;
     align-items: baseline;
     width: 100%;
@@ -13,7 +13,7 @@ header /* Header */
 }
 #logo img 
 {
-    padding-left: 55px;
+    padding-left: 25px;
     padding-top: 50px;
 }
 nav /* Nav-bar */
@@ -71,6 +71,7 @@ nav a:hover /* Link effect */
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: flex-start;
+        padding: 0px 0px 0px 34px;
     }
 
     nav /* Nav-bar */
