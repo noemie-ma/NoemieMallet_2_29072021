@@ -60,6 +60,11 @@ input:focus
     justify-content: flex-end;
 }
 
+.rechercher:hover
+{
+    cursor: pointer;
+}
+
 .rechercher_mobile
 {
     display: none;
