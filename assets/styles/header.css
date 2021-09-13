@@ -70,8 +70,6 @@ nav a:hover /* Link effect */
     {
         flex-direction: row;
         flex-wrap: wrap;
-        justify-content: flex-start;
-        padding: 0px 0px 0px 34px;
     }
 
     nav /* Nav-bar */

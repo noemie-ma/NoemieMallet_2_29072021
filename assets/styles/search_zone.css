@@ -1,7 +1,6 @@
 /* Search box */
 #search
 {
-    padding: 0px 0px 0px 25px;
     display: flex;
     flex-direction: column;
 }
@@ -160,9 +159,14 @@ label i
 @media all and (max-width: 768px)
 {
     /* Titre */
+
+    #search
+    {
+        padding: 30px;
+    }
+
     h1
     {
-        padding: 35px 65px 10px 0px;
         font-size: 28px;
     }
 
@@ -173,7 +177,11 @@ label i
         display: flex;
         width: 100%;
         height: 47px;
-        margin: 39px 22px 37px 0px;
+    }
+
+    .gps-loc
+    {
+        width: 20%;
     }
 
     .fa.fa-map-marker 
@@ -189,14 +197,14 @@ label i
     .rechercher_mobile
     {
         display: contents;
-        width: 52px;
+        width: 20%;
         height: 53px;
         border: none;
     }
 
     .bouton-recherche
     {
-        width: 18%;
+        width: 20%;
     }
 
     .fa-search
