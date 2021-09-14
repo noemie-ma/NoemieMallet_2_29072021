@@ -3,6 +3,7 @@
 {
     display: flex;
     flex-direction: column;
+    padding: 10px 25px 10px 25px;
 }
 
 .search-bar
@@ -197,14 +198,14 @@ label i
     .rechercher_mobile
     {
         display: contents;
-        width: 20%;
+        width: 25%;
         height: 53px;
         border: none;
     }
 
     .bouton-recherche
     {
-        width: 20%;
+        width: 25%;
     }
 
     .fa-search

@@ -11,6 +11,7 @@ header /* Header */
     align-content: flex-start;
     flex:1;
 }
+
 #logo img 
 {
     padding-left: 25px;
