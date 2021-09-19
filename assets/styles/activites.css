@@ -59,10 +59,11 @@
     margin: 0px 0px 0px 0px;
 }
 
-.flexcolumn
+.flexcolumn 
 {
     display: flex;
     flex-direction: column;
+    width: 25%;
 }
 
 .line-orientation
@@ -110,6 +111,7 @@
     .flexcolumn
     {
         gap: 55px;
+        width: 100%;
     }
 
     .card-activities

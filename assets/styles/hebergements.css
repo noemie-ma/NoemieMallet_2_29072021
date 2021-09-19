@@ -13,10 +13,10 @@ article
     display: flex;
     flex-direction: column;
 }
-.hebergements
-{
+
+.hebergements {
     background-color: #F2F2F2;
-    width: 58%;
+    width: 75%;
     border-radius: 20px;
     padding: 20px 30px 20px 30px;
 }
@@ -26,8 +26,8 @@ article
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-between;
-    gap: 3px;
+    justify-content: space-around;
+    gap: 30px;
 }
 
 .home-announce
@@ -47,7 +47,6 @@ article
 
 .imgheb
 {
-    width: 237px;
     height: 116px;
 }
 
@@ -105,6 +104,7 @@ strong
     border-radius: 20px;
     display: flex;
     flex-direction: column;
+    width: 25%;
 }
 
 .trending h2
@@ -134,11 +134,12 @@ strong
     flex-direction: column;
 }
 
-.redirection
+.redirection 
 {
     display: flex;
     text-decoration: none;
     color: #000000;
+    flex-basis: 30%;
 }
 
 .imgpop

@@ -100,10 +100,10 @@ input:focus
 .filters_box
 {
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    width: 70%;
     flex-wrap: wrap;
+    flex-direction: row;
+    gap: 20px;
 }
 
 .checkbox
