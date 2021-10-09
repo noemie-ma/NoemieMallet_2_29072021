@@ -71,7 +71,7 @@ nav a:hover /* Link effect */
     {
         flex-direction: row;
         flex-wrap: wrap;
-		width: 122%;
+		width: 100%;
     }
 
     nav /* Nav-bar */
