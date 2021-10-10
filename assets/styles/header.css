@@ -6,13 +6,13 @@ header /* Header */
     width: 100%;
 }
 
-#logo /* Reservia logo */
+.logo /* Reservia logo */
 {
     align-content: flex-start;
     flex:1;
 }
 
-#logo img 
+.logo img 
 {
     padding-left: 25px;
     padding-top: 50px;
@@ -51,12 +51,12 @@ nav a:hover /* Link effect */
     padding-top: 65px;
 }
 
-#inscription
+.inscription
 {
     align-content: flex-end;
 }
 
-#inscription a
+.inscription a
 {
     text-decoration: none;
     color: #0065FC;
@@ -67,6 +67,13 @@ nav a:hover /* Link effect */
 
 @media all and (max-width: 768px)
 {
+	#blocheader
+	{
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+	}
+
     header /* Header */
     {
         flex-direction: row;
@@ -74,12 +81,25 @@ nav a:hover /* Link effect */
 		width: 100%;
     }
 
+	.logo
+	{
+		order: 1;
+	}
+	
+	.logo img
+	{
+		padding: 0;
+		margin-bottom: -15px;
+		margin-left: 30px;
+		margin-top: 15px;
+		margin-right: 30px;
+	}
+	
     nav /* Nav-bar */
     {
-        order: 2;
+        order: 3;
         flex: 1 0 100%;
-        border-bottom: 3px solid #F2F2F2;
-        border-top: none;
+        
     }
 
     nav ul
@@ -88,13 +108,29 @@ nav a:hover /* Link effect */
         text-align: center;
         justify-content: space-around;
         align-items: stretch;
-    }
-
-    nav a:hover /* Link effect */
-    {
-        border-bottom : 3px solid #0065FC;
-        padding-bottom: 16px;
+		border-bottom: 3px solid #F2F2F2;
         border-top: none;
     }
 
+	
+	nav a:hover
+	{
+		border-top: none;
+	}
+	
+    nav li:hover /* Link effect */
+    {
+        border-bottom : 3px solid #0065FC;
+        border-top: none;
+    }
+	.inscription
+	{
+		order: 2;
+		text-align: end;
+		padding: 0;
+		margin-bottom: 25px;
+		margin-left: 30px;
+		margin-top: -15px;
+		margin-right: 1px;
+	}
 }

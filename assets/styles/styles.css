@@ -6,7 +6,8 @@
 @import 'hebergements.css';
 @import 'activites.css';
 
-body
+*
 {
     font-family: 'Raleway', sans-serif;
+	scroll-behavior: smooth;
 }
