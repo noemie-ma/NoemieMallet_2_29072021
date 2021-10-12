@@ -160,12 +160,19 @@ label i
 /* Mobile version */
 @media all and (max-width: 768px)
 {
+    #search
+    {
+        gap: 15px;
+    }
     /* Titre */
-
-
     h1
     {
-        font-size: 25px;
+        font-size: 20px;
+    }
+
+    p
+    {
+        font-size: 15px;
     }
 
     /* Barre */

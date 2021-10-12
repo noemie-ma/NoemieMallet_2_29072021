@@ -74,13 +74,13 @@ article
 .pres-hebergement h3
 {
     margin: 5px 0px 5px 0px;
-    font-size: 16px;
+    font-size: 13px;
 }
 
 .pres-hebergement p
 {
     margin: 10px 10px 10px 0px;
-    font-size: 16px;
+    font-size: 13px;
 }
 
 strong
@@ -110,7 +110,8 @@ strong
 .trending h2
 {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between;    
+    margin-bottom: 18px;
 }
 
 .elements-tt
@@ -166,17 +167,17 @@ strong
 
 .presentationpop h3
 {
-    margin-top: 5px;
+    margin-top: 2px;
     margin-bottom: 0px;
-    font-size: 16px;
-    width: 110%;
+    font-size: 12px;
+    width: 105%;
 }
 
 
 .presentationpop p
 {
-    margin: 10px 0px 20px 0px;
-    font-size: 15px;
+    margin: 20px 0px 20px 0px;
+    font-size: 12px;
 }
 
 .p
@@ -221,7 +222,8 @@ strong
 
     .trending h2
     {
-        width: 100%;
+        width: 95%;
+        margin-left: 10px;
     }
 
     .elements-tt 
@@ -253,6 +255,17 @@ strong
         width: 100%;
         gap: 20px;
 		padding: 0;
+    }
+
+    .hebergements h2
+    {
+        margin-left: 10px;
+    }
+
+    .aplus 
+    {
+        font-size: 15px;
+        margin-left: 15px;
     }
 
     .elements

@@ -6,6 +6,13 @@ header /* Header */
     width: 100%;
 }
 
+.blocheader
+{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+
 .logo /* Reservia logo */
 {
     align-content: flex-start;
@@ -48,7 +55,7 @@ nav a:hover /* Link effect */
 {
     color: #0065FC;
     border-top: 3px solid #0065FC;
-    padding-top: 65px;
+    padding-top: 78px;
 }
 
 .inscription
@@ -67,19 +74,20 @@ nav a:hover /* Link effect */
 
 @media all and (max-width: 768px)
 {
-	#blocheader
-	{
-		display: flex;
-		flex-direction: column;
-		width: 100%;
-	}
+	
 
     header /* Header */
     {
-        flex-direction: row;
+        flex-direction: column-reverse;
         flex-wrap: wrap;
-		width: 100%;
+        width: 100%;
     }
+    
+    .blocheader
+	{
+		flex-direction: column;
+		width: 100%;
+	}
 
 	.logo
 	{
@@ -99,6 +107,7 @@ nav a:hover /* Link effect */
     {
         order: 3;
         flex: 1 0 100%;
+        width: 100%;
         
     }
 
@@ -126,7 +135,7 @@ nav a:hover /* Link effect */
 	.inscription
 	{
 		order: 2;
-		text-align: end;
+		align-self: self-end;
 		padding: 0;
 		margin-bottom: 25px;
 		margin-left: 30px;
