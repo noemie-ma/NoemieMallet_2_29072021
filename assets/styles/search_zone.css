@@ -5,6 +5,7 @@
     flex-direction: column;
     padding: 10px 25px 10px 25px;
 	width: 100%;
+    gap: 20px;
 }
 
 .search-bar
