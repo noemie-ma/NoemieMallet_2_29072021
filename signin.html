@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="FR">
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -8,6 +8,8 @@
         <title>Reservia</title>
     </head>
 <body>
+
+    <!-- Header -->
     <header>
 		
 		<div class="logo">
@@ -26,19 +28,111 @@
 		</div>
     </header>
 
+    <!-- Subscription -->
     <div id="form-signin">
         <div class="title">
             <h1>Bienvenue !</h1>
         </div>
 
         <div class="explanation">
-            <p>Vous souhaitez explorer de nouveaux horizons ? C'est gratuit ! <br />
+            <p>Vous souhaitez explorer de nouveaux horizons ? <br />
                 Il vous suffit de remplir le formulaire ci-dessous.</p>
         </div>
 
         <div class="formulaire">
-            
+            <form action="/inscription" method="post">
+                <div>
+                    <label for="name">Nom de famille :</label>
+                    <input type="text" id="name" name="user_name">
+                </div>
+                <div>
+                    <label for="name">Prénom :</label>
+                    <input type="text" id="surname" name="user_surname">
+                </div>
+                <div>
+                    <label for="username">Pseudonyme :</label>
+                    <input type="text" id="username" name="username">
+                </div>
+                <div>
+                    <label for="mail">e-mail :</label>
+                    <input type="text" id="mail" name="user_mail">
+                </div>
+                <div>
+                    <label for="name">Adresse :</label>
+                    <input type="text" id="adress" name="user_adress">
+                </div>
+                <div>
+                    <label for="pass">Mot de passe (8 caractères minimum):</label>
+                    <input type="password" id="pass" name="password"
+                           minlength="8" required>
+                </div>
+            </form>
         </div>
+
+        <div class="button">
+            <a href="#">
+                <button type="submit">S'inscrire</button>
+            </a>
+        </div>
+
     </div>
+
+    <!-- Login part -->
+    <div id="form-login">
+
+        <div class="explanation">
+            <p>Vous possédez déjà un compte ? Connectez-vous !</p>
+        </div>
+
+        <div class="formulaire">
+            <form action="/connexion" method="post">
+                <div>
+                    <label for="username">Pseudonyme:</label>
+                    <input type="text" id="username" name="username">
+                </div>
+                
+                <div>
+                    <label for="pass">Mot de passe:</label>
+                    <input type="password" id="pass" name="password"
+                           minlength="8" required>
+                </div>
+            </form>
+        </div>
+
+        <div class="button">
+            <a href="#">
+                <button type="submit">Se connecter</button>
+            </a>
+        </div>
+
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer_colomn">
+            <h1>A propos</h1>
+            <ul>
+                <li><a href="#">Fonctionnement du site</a></li>
+                <li><a href="#">Conditions générales de vente</a></li>
+                <li><a href="#">Données et confidentialité</a></li>
+            </ul>
+        </div>
+
+        <div class="footer_colomn">
+            <h1>Nos hébergements</h1>
+            <ul>
+                <li><a href="#">Charte qualité</a></li>
+                <li><a href="#">Soumettre votre hôtel</a></li>
+            </ul>
+        </div>
+
+        <div class="footer_colomn">
+            <h1>Assistance</h1>
+            <ul>
+                <li><a href="#">Centre d'aide</a></li>
+                <li><a href="#">Nous contacter</a></li>
+            </ul>
+        </div>
+    </footer>
 </body>
 </html>
