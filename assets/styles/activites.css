@@ -97,6 +97,7 @@
         width: 100%;
         display: flex;
         flex-direction: column;
+		padding: 25px 10px;
     }
 
     #activities h2
