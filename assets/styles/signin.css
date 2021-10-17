@@ -58,7 +58,7 @@ textarea
     height: 5em;
 }
 
-button
+/* button
 {
     display: flex;
     flex-direction: row;
@@ -72,7 +72,7 @@ button
     background-image: linear-gradient(to bottom right, #DEEBFF, #0065FC);
     margin: 20px 0px 38px 0px;
     cursor: pointer;
-}
+} */
 
 #form-login
 {

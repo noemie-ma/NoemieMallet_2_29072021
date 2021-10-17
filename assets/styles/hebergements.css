@@ -54,7 +54,7 @@ article
 {
     object-fit: cover;
     width: 100%;
-    height: 100%;
+    height: 85%;
     border-radius: 16px 16px 0px 0px;
     display: flex;
 }
@@ -167,16 +167,16 @@ strong
 
 .presentationpop h3
 {
-    margin-top: 2px;
+    margin-top: 5px;
     margin-bottom: 0px;
     font-size: 12px;
-    width: 105%;
+    width: 100%;
 }
 
 
 .presentationpop p
 {
-    margin: 20px 0px 20px 0px;
+    margin: 10px 0px 10px 0px;
     font-size: 12px;
 }
 
@@ -242,7 +242,7 @@ strong
 
     .photo
     {
-        height: 108%;
+        height: 100%;
     }
 
     /* Hebergement */
