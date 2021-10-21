@@ -223,13 +223,18 @@ strong
     .trending h2
     {
         width: 95%;
-        margin-left: 10px;
+		margin-left: 10px;
+		display: flex;
+		justify-content: space-around;
+		gap: 90px;
     }
 
     .elements-tt 
     {
         display: flex;
-        flex-direction: column;
+		flex-direction: column;
+		width: 90%;
+		align-self: center;
     }
 
     .annonce

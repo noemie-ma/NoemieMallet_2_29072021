@@ -10,7 +10,7 @@
 
 .search-bar
 {
-    border: 1px solid #F2F2F2;
+    border: 2px solid #F2F2F2;
     overflow: hidden;
     display: flex;
     align-items: center;
@@ -163,13 +163,14 @@ label i
 {
     #search
     {
-        gap: 15px;
+        gap: 20px;
     }
     /* Titre */
     h1
     {
         font-size: 20px;
-    }
+		margin-top: 20px;
+	}
 
     p
     {
@@ -181,8 +182,10 @@ label i
     {
         border-right: none;
 		display: flex;
-		width: 275px;
-		height: 47px;
+		flex-direction: row;
+		width: 305px;
+		height: 52px;
+		align-self: center;
     }
 
     .gps-loc
@@ -231,18 +234,18 @@ label i
     /* filtre */
     .filters_box
     {
-    display: flex;
-    flex-wrap: wrap;
-    width: 95%;
+		display: flex;
+		flex-wrap: wrap;
+		width: 95%;
     }
 
     .filters
     {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    flex-wrap: wrap;
-    font-weight: bold;
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+		flex-wrap: wrap;
+		font-weight: bold;
     }
 
     .filters h2 
@@ -262,6 +265,15 @@ label i
     {
         background-color: #DEEBFF;
     }
+	
+	.label i
+	{
+		color: #0065FC;
+		font-size: 15px;
+		background-color: #DEEBFF;
+		border-radius: 100%;
+		padding: 15px;
+	}
 
     /* Information */
     .info
