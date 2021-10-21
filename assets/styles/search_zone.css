@@ -183,7 +183,7 @@ label i
         border-right: none;
 		display: flex;
 		flex-direction: row;
-		width: 305px;
+		width: 285px;
 		height: 52px;
 		align-self: center;
     }
@@ -218,12 +218,13 @@ label i
 
     .fa-search
     {
-        color: white;
-        background-color: #0065FC;
-        padding: 90%;
-        border-radius: 20px;
-        font-size: 20px;
-        padding: 15px 20px 15px 20px;
+		color: white;
+		background-color: #0065FC;
+		padding: 22%;
+		border-radius: 20px;
+		font-size: 20px;
+		display: flex;
+		justify-content: center;
     }
 
     .fa-map-marker-alt
