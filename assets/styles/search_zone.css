@@ -132,6 +132,12 @@ a:hover
     background-color: #F2F2F2;
 }
 
+label
+{
+	display: flex;
+    flex-direction: row;
+}
+
 label i
 {
     color: #0065FC;
@@ -140,6 +146,25 @@ label i
     border-radius: 100%;
     padding: 20px;
 }
+
+label p
+{
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 3px;
+}
+
+
+/* Informations */
+.information
+{
+	display: flex;
+	flex-direction: row;
+	gap: 10px;
+	margin: 10px 2px;
+}
+
 
 /* Info-logo */
 .info
@@ -237,7 +262,8 @@ label i
     {
 		display: flex;
 		flex-wrap: wrap;
-		width: 95%;
+		width: 100%;
+		gap: 10px;
     }
 
     .filters
@@ -251,8 +277,8 @@ label i
 
     .filters h2 
     {
-        margin-right: 20px;
-        font-size: 20px;
+        font-size: 18px;
+		margin-bottom: 10px;
     }
     .delivery-icon
     {
@@ -261,22 +287,30 @@ label i
     .checkbox
     {
         margin-bottom: 5%;
+		padding-right: 5px;
     }
     .checkbox:hover
     {
         background-color: #DEEBFF;
     }
 	
-	.label i
+	label i
 	{
-		color: #0065FC;
 		font-size: 15px;
-		background-color: #DEEBFF;
-		border-radius: 100%;
 		padding: 15px;
 	}
 
     /* Information */
+	.information
+	{
+		margin: 0px 0px 15px 0px;
+	}
+	
+	.information p
+	{
+		font-size: 12px;
+	}
+	
     .info
     {
         margin: 5%;
