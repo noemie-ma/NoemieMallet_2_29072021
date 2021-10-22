@@ -131,6 +131,7 @@ nav a:hover /* Link effect */
     {
         border-bottom : 3px solid #0065FC;
         border-top: none;
+		margin-bottom: -3px;
     }
 	.inscription
 	{
