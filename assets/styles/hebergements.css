@@ -19,6 +19,12 @@ article
     width: 75%;
     border-radius: 20px;
     padding: 20px 30px 20px 30px;
+	gap: 25px;
+}
+
+.hebergements h2
+{
+	margin-top: 12px;
 }
 
 .elements
@@ -112,6 +118,7 @@ strong
     display: flex;
     justify-content: space-between;    
     margin-bottom: 18px;
+	margin-top: 12px;
 }
 
 .elements-tt
