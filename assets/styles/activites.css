@@ -102,22 +102,25 @@
 
     #activities h2
     {
-        margin-bottom: 15px;
-        margin-top: 10px;
+        margin-left: 15px;
+		margin-top: 20px;
+		margin-bottom: 25px;
+		font-size: 20px;
     }
 
     .elements2
     {
         display: flex;
-        flex-direction: column;
-        width: 100%;
-        gap: 30px;
+		flex-direction: column;
+		align-self: center;
+		width: 97%;
+		gap: 15px;
     }
 
     .flexcolumn
     {
-        gap: 30px;
-        width: 100%;
+        gap: 15px;
+		width: 100%;
     }
 
     .card-activities
@@ -138,8 +141,8 @@
     .column-orientation img
     {
         width: 100%;
-        height: 195px;
-        display: flex;
+		height: 135px;
+		display: flex;
 
     }
 
@@ -152,7 +155,8 @@
     .line-orientation img
     {
         width: 100%;
-        display: flex;
+		height: 135px;
+		display: flex;
     }
 }
 

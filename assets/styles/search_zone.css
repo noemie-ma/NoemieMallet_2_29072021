@@ -148,7 +148,7 @@ label i
     padding: 20px;
 }
 
-label p
+label span
 {
 	display: flex;
     flex-direction: column;
@@ -263,9 +263,9 @@ label p
     {
 		display: flex;
 		flex-wrap: wrap;
-		width: 100%;
+		width: 104%;
 		gap: 10px;
-    }
+	}
 
     .filters
     {
